@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Kalorier tæller</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="/submit" method="POST">
+        <div class="form-group">
+          <br><input type="radio" name="kalorier" value="100" checked="checked"/> 100
+          <br><input type="radio" name="kalorier" value="500" /> 500
+        </div> 
+          <input type="submit" value="Submit" class="btn"/>
+      </form>
+      <p align="center"><a href=min_data ><button class="btn">Se Statistik</button></a></p> <!-- denne skal uden for form-->
+    </div>
+  </body>
+</html>
