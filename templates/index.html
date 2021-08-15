@@ -11,15 +11,16 @@
     <div class="container">
       <form action="/submit" method="POST">
         <div class="form-group">
-          <p> Kalorier </p>
-          <br><input type="radio" name="kalorier" value="100" checked="checked"/> 100
+          <p><b> Kalorier </b></p>
+          <p style="font-size:14px"> Vælg antal og Tiløj </p>
+          <input type="radio" name="kalorier" value="100" checked="checked"/> 100
           <br><input type="radio" name="kalorier" value="500" /> 500
         </div> 
-          <input type="submit" value="Submit" class="btn"/>
+          <input type="submit" value="Tilføj" class="btn"/>
       </form>
       <div class="form-group">
-      <p align="center"><a href=min_data ><button class="btn">Se Statistik</button></a><p>
-      </div>  <!-- denne skal uden for form-->
+      <p align="center"><a href=min_data ><button class="btn">Se Statistik</button></a><p> <!-- denne skal uden for form, da alt i denne har "action=/submit"-->
+      </div>  
     </div>
   </body>
 </html>
