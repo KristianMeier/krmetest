@@ -17,7 +17,8 @@ body {
 	max-width: 200px;
 	margin: 1rem auto;
 	overflow: auto;
-	padding: 0 2rem;
+	/* padding: 0 2rem; */
+	padding: 0.4rem;
 	font-size: 22px;
 	margin-bottom: 30px;
 }
